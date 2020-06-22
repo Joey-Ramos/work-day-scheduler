@@ -1,5 +1,5 @@
 // Add Current Date to Top of Webpage Variable
-var todaysDate = moment().format('dddd , MMMM Do');
+var todaysDate = moment().format('dddd, MMMM Do');
 
 // Current Day Function
 $("#currentDay").text(function() {
@@ -8,3 +8,5 @@ $("#currentDay").text(function() {
 
 
 // Time Blocks
+var currentHour = moment().format('h A');
+console.log(currentHour)

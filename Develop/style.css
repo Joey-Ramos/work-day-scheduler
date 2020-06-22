@@ -10,8 +10,8 @@ textarea{
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: none;
-  height: 100%;
+  padding: 10px;
+  height: 80%;
   width: 100%;
 }
 
@@ -28,14 +28,13 @@ textarea{
 }
 
 .time-block{
-  text-align: center;
-  border-radius: 15px;
+  text-align: right;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -65,9 +64,19 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  height: 100%;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.oi, .oi-box {
+  display: flex;
+  justify-content: center;
+}
+.oi-box {
+  background-color:#06AED5;
+  color: white;
 }
