@@ -80,3 +80,9 @@ textarea{
   background-color:#06AED5;
   color: white;
 }
+.buttonStyle {
+  border: none;
+  padding-left: 23px;
+  padding-right:23px;
+  background-color: #06AED5;
+}
