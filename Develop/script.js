@@ -26,8 +26,3 @@ Array.from(document.querySelectorAll(".row")).forEach(function(element){
 })
 
 //var textContent = document.getElementsById('#text-content');
-//var addTask = document.getElementById("#add-task");
-
-$("#add-tasK").click(function() {
-    console.log("span was clicked")
-})
